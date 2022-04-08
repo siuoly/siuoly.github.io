@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Siuoly&#39;s site</title>
+    <link>http://siuoly.github.io/</link>
+    <description>Recent content on Siuoly&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 09 Apr 2022 00:52:44 +0800</lastBuildDate><atom:link href="http://siuoly.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test_article</title>
+      <link>http://siuoly.github.io/posts/test_article/</link>
+      <pubDate>Sat, 09 Apr 2022 00:52:44 +0800</pubDate>
+      
+      <guid>http://siuoly.github.io/posts/test_article/</guid>
+      <description>This is a good day Hello every one.</description>
+    </item>
+    
+    <item>
+      <title>Vim Trick</title>
+      <link>http://siuoly.github.io/posts/vim-trick/</link>
+      <pubDate>Sat, 26 Mar 2022 13:57:26 +0800</pubDate>
+      
+      <guid>http://siuoly.github.io/posts/vim-trick/</guid>
+      <description>[TOC]
+How to make local function? &amp;#34; file: function.vimfunction s:LocalFunction() echo &amp;#34;here is local function()&amp;#34;endfunctioncall s:LocalFunction() &amp;#34; ok, calling local function in same script is legal &amp;#34; file: main.vim&amp;#34; call s:LocalFunction() # error, the function is localizedHow to mapping this function? if call the function s:funcName(), here may be problem of same function name , so vim use keyword &amp;lt;SID&amp;gt;funcName() to replace the function name to correct name implicitly.
+&amp;#34; file: function.</description>
+    </item>
+    
+    <item>
+      <title>ERANN</title>
+      <link>http://siuoly.github.io/posts/erann/</link>
+      <pubDate>Thu, 24 Mar 2022 17:05:40 +0800</pubDate>
+      
+      <guid>http://siuoly.github.io/posts/erann/</guid>
+      <description>https://paperswithcode.com/sota/audio-classification-on-esc-50 [TOC]
+Paper Do  Propose convolutional neural network frameworks improving the inference speed of CNN-based systems. Investigate the impact of (1)data augmentation techniques ,and (2) transfer learning.  Audio pattern recognition (APR )  Environmental sound classification(環境聲音分類) Sound event detection(聲音事件檢測) Audio tagging(音頻標記) Smart room monitoring(智能房間監控) Video content highlight generation(視頻內容突出顯示生成) Musical genre classification(音樂類型分類) Speech emotion classification(語音情感分類) Classify respiratory diseases(分類呼吸系統疾病)  Related work Traditional Methods Traditional APR systems are classical generative or discriminative models, e.</description>
+    </item>
+    
+    <item>
+      <title>Vim Ipython Interacion</title>
+      <link>http://siuoly.github.io/posts/vim-ipython-interacion/</link>
+      <pubDate>Wed, 23 Mar 2022 12:27:56 +0800</pubDate>
+      
+      <guid>http://siuoly.github.io/posts/vim-ipython-interacion/</guid>
+      <description>vim ipython Purpose: jupyter非常好用,區塊執行特性,顯示圖片輸出,聲音輸出,而vim有快速打字,自訂命令等優點。這裡紀錄讓vim-python模仿jupyter等互動模式
+Concept:  工作區塊,類比jupyter工作區塊  plugin install ipython setting&amp;hellip;&amp;hellip; slime config setting&amp;hellip;..
+hotkeys  # 連續按兩下空白鍵 執行區塊 # 區塊間移動 # 快捷鍵,建立區塊 # 快捷鍵 顯示游標上的變數 # 執行全部區塊 # 開啟debug模式 </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://siuoly.github.io/posts/</loc>
+    <lastmod>2022-04-09T00:52:44+08:00</lastmod>
+  </url><url>
+    <loc>http://siuoly.github.io/</loc>
+    <lastmod>2022-04-09T00:52:44+08:00</lastmod>
+  </url><url>
+    <loc>http://siuoly.github.io/posts/test_article/</loc>
+    <lastmod>2022-04-09T00:52:44+08:00</lastmod>
+  </url><url>
+    <loc>http://siuoly.github.io/posts/vim-trick/</loc>
+    <lastmod>2022-03-26T13:57:26+08:00</lastmod>
+  </url><url>
+    <loc>http://siuoly.github.io/posts/erann/</loc>
+    <lastmod>2022-03-24T17:05:40+08:00</lastmod>
+  </url><url>
+    <loc>http://siuoly.github.io/posts/vim-ipython-interacion/</loc>
+    <lastmod>2022-03-23T12:27:56+08:00</lastmod>
+  </url><url>
+    <loc>http://siuoly.github.io/categories/</loc>
+  </url><url>
+    <loc>http://siuoly.github.io/tags/</loc>
+  </url>
+</urlset>
