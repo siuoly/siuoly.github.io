@@ -1,7 +1,0 @@
-# baseURL = 'http://example.org/'
-baseURL = 'http://siuoly.github.io'
-# languageCode = 'en-us'
-languageCode = 'zh-tw'
-# title = 'My New Hugo Site'
-title = "Siuoly's site"
-theme = "ananke"
