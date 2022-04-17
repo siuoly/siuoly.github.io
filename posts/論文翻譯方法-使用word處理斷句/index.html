@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>論文翻譯方法 使用word處理斷句 | Siuoly&#39;s site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="論文翻譯-使用word段句-中英文對照 前後比較圖
+描述現有翻譯問題
+在PDF格式下，翻譯PDF複製的文件會有斷句不完整的問題
+使用word開啟論文PDF檔案可以解決此段距問題。
+使用web 瀏覽模式，斷句自動處理，現在複製段落也有正確的斷句了
+用Html格式儲存文件，開啟Html網頁檔案，使用google翻譯能夠正常的翻譯整份文件。
+但我的閱讀習慣是中文接續英文段落，因此換一個方法。
+手動，刪除圖片,公式，避免影響翻譯後排版，複製文字到文件檔上，命名paper.txt
+使用python 腳本逐行翻譯
+# trans.py from sys import argv from googletrans import Translator t = Translator() def translate(text):  return t.translate( text, dest=&#34;zh-TW&#34; ).text readfile = &#34;./paper.txt&#34; writefile = &#34;./translated.txt&#34; with open( readfile, &#39;r&#39;) as f:  lines = f.readlines() import time newfile = open( writefile , &#39;w&#39;) for line in lines:  if line.strip() == &#39;&#39;:  newfile.write(&#39;\n&#39;)  continue  time.">
+    <meta name="generator" content="Hugo 0.95.0" />
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="論文翻譯方法 使用word處理斷句" />
+<meta property="og:description" content="論文翻譯-使用word段句-中英文對照 前後比較圖
+描述現有翻譯問題
+在PDF格式下，翻譯PDF複製的文件會有斷句不完整的問題
+使用word開啟論文PDF檔案可以解決此段距問題。
+使用web 瀏覽模式，斷句自動處理，現在複製段落也有正確的斷句了
+用Html格式儲存文件，開啟Html網頁檔案，使用google翻譯能夠正常的翻譯整份文件。
+但我的閱讀習慣是中文接續英文段落，因此換一個方法。
+手動，刪除圖片,公式，避免影響翻譯後排版，複製文字到文件檔上，命名paper.txt
+使用python 腳本逐行翻譯
+# trans.py from sys import argv from googletrans import Translator t = Translator() def translate(text):  return t.translate( text, dest=&#34;zh-TW&#34; ).text readfile = &#34;./paper.txt&#34; writefile = &#34;./translated.txt&#34; with open( readfile, &#39;r&#39;) as f:  lines = f.readlines() import time newfile = open( writefile , &#39;w&#39;) for line in lines:  if line.strip() == &#39;&#39;:  newfile.write(&#39;\n&#39;)  continue  time." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://siuoly.github.io/posts/%E8%AB%96%E6%96%87%E7%BF%BB%E8%AD%AF%E6%96%B9%E6%B3%95-%E4%BD%BF%E7%94%A8word%E8%99%95%E7%90%86%E6%96%B7%E5%8F%A5/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-04-18T02:29:36+08:00" />
+<meta property="article:modified_time" content="2022-04-18T02:29:36+08:00" />
+
+<meta itemprop="name" content="論文翻譯方法 使用word處理斷句">
+<meta itemprop="description" content="論文翻譯-使用word段句-中英文對照 前後比較圖
+描述現有翻譯問題
+在PDF格式下，翻譯PDF複製的文件會有斷句不完整的問題
+使用word開啟論文PDF檔案可以解決此段距問題。
+使用web 瀏覽模式，斷句自動處理，現在複製段落也有正確的斷句了
+用Html格式儲存文件，開啟Html網頁檔案，使用google翻譯能夠正常的翻譯整份文件。
+但我的閱讀習慣是中文接續英文段落，因此換一個方法。
+手動，刪除圖片,公式，避免影響翻譯後排版，複製文字到文件檔上，命名paper.txt
+使用python 腳本逐行翻譯
+# trans.py from sys import argv from googletrans import Translator t = Translator() def translate(text):  return t.translate( text, dest=&#34;zh-TW&#34; ).text readfile = &#34;./paper.txt&#34; writefile = &#34;./translated.txt&#34; with open( readfile, &#39;r&#39;) as f:  lines = f.readlines() import time newfile = open( writefile , &#39;w&#39;) for line in lines:  if line.strip() == &#39;&#39;:  newfile.write(&#39;\n&#39;)  continue  time."><meta itemprop="datePublished" content="2022-04-18T02:29:36+08:00" />
+<meta itemprop="dateModified" content="2022-04-18T02:29:36+08:00" />
+<meta itemprop="wordCount" content="91">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="論文翻譯方法 使用word處理斷句"/>
+<meta name="twitter:description" content="論文翻譯-使用word段句-中英文對照 前後比較圖
+描述現有翻譯問題
+在PDF格式下，翻譯PDF複製的文件會有斷句不完整的問題
+使用word開啟論文PDF檔案可以解決此段距問題。
+使用web 瀏覽模式，斷句自動處理，現在複製段落也有正確的斷句了
+用Html格式儲存文件，開啟Html網頁檔案，使用google翻譯能夠正常的翻譯整份文件。
+但我的閱讀習慣是中文接續英文段落，因此換一個方法。
+手動，刪除圖片,公式，避免影響翻譯後排版，複製文字到文件檔上，命名paper.txt
+使用python 腳本逐行翻譯
+# trans.py from sys import argv from googletrans import Translator t = Translator() def translate(text):  return t.translate( text, dest=&#34;zh-TW&#34; ).text readfile = &#34;./paper.txt&#34; writefile = &#34;./translated.txt&#34; with open( readfile, &#39;r&#39;) as f:  lines = f.readlines() import time newfile = open( writefile , &#39;w&#39;) for line in lines:  if line.strip() == &#39;&#39;:  newfile.write(&#39;\n&#39;)  continue  time."/>
+
+	
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Siuoly&#39;s site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">論文翻譯方法 使用word處理斷句</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-04-18T02:29:36+08:00">April 18, 2022</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="論文翻譯-使用word段句-中英文對照">論文翻譯-使用word段句-中英文對照</h1>
+<p>前後比較圖</p>
+<p><img src="img/2022-04-18-03-01-59-image.png" alt=""></p>
+<p>描述現有翻譯問題</p>
+<p>在PDF格式下，翻譯PDF複製的文件會有斷句不完整的問題</p>
+<!-- raw HTML omitted -->
+<p><img src="img/2022-04-18-03-04-59-image.png" alt="img"></p>
+<p>使用word開啟論文PDF檔案可以解決此段距問題。</p>
+<!-- raw HTML omitted -->
+<p><img src="img/2022-04-18-03-31-25-image.png" alt="img"></p>
+<p>使用web 瀏覽模式，斷句自動處理，現在複製段落也有正確的斷句了</p>
+<!-- raw HTML omitted -->
+<p><img src="img/2022-04-18-03-33-06-image.png" alt="img"></p>
+<p>用Html格式儲存文件，開啟Html網頁檔案，使用google翻譯能夠正常的翻譯整份文件。</p>
+<!-- raw HTML omitted -->
+<p><img src="img/2022-04-18-03-37-28-image.png" alt="img"></p>
+<p>但我的閱讀習慣是中文接續英文段落，因此換一個方法。</p>
+<p>手動，刪除圖片,公式，避免影響翻譯後排版，複製文字到文件檔上，命名paper.txt</p>
+<p><img src="img/2022-04-18-03-41-09-image.png" alt="img"></p>
+<p>使用python 腳本逐行翻譯</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># trans.py</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> sys <span style="color:#f92672">import</span> argv
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> googletrans <span style="color:#f92672">import</span> Translator
+</span></span><span style="display:flex;"><span>t <span style="color:#f92672">=</span> Translator()
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">translate</span>(text):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> t<span style="color:#f92672">.</span>translate( text, dest<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh-TW&#34;</span> )<span style="color:#f92672">.</span>text
+</span></span><span style="display:flex;"><span>readfile <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;./paper.txt&#34;</span>
+</span></span><span style="display:flex;"><span>writefile <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;./translated.txt&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">with</span> open( readfile, <span style="color:#e6db74">&#39;r&#39;</span>) <span style="color:#66d9ef">as</span> f:
+</span></span><span style="display:flex;"><span>    lines <span style="color:#f92672">=</span> f<span style="color:#f92672">.</span>readlines()
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> time
+</span></span><span style="display:flex;"><span>newfile <span style="color:#f92672">=</span> open( writefile , <span style="color:#e6db74">&#39;w&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> line <span style="color:#f92672">in</span> lines:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> line<span style="color:#f92672">.</span>strip() <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;&#39;</span>:
+</span></span><span style="display:flex;"><span>        newfile<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">continue</span>
+</span></span><span style="display:flex;"><span>    time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>    line <span style="color:#f92672">=</span> line[:<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>] <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;(&#39;</span> <span style="color:#f92672">+</span> translate(line) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;)</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    newfile<span style="color:#f92672">.</span>write( line )
+</span></span><span style="display:flex;"><span>    print( line )
+</span></span><span style="display:flex;"><span>newfile<span style="color:#f92672">.</span>close()
+</span></span></code></pre></div><p>執行腳本: <code>python trans.py</code>，程式會把段落(paragraph)一段一段的文字用google api來翻譯，預設每三秒暫停一次，避免太過頻繁的請求而被鎖IP。</p>
+<p>最終結果:</p>
+<!-- raw HTML omitted -->
+<p><img src="img/2022-04-18-03-45-24-image.png" alt="img"></p>
+<p>將文字檔案放到喜歡的閱讀工具上(notion, hackmd, onenote, everynote),可以手機上面閱讀,或是列印紙本閱讀。</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://siuoly.github.io" >
+    &copy;  Siuoly's site 2022 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div></div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -6,7 +6,25 @@
     <description>Recent content in Posts on Siuoly&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 09 Apr 2022 00:52:44 +0800</lastBuildDate><atom:link href="http://siuoly.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Apr 2022 02:29:36 +0800</lastBuildDate><atom:link href="http://siuoly.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>論文翻譯方法 使用word處理斷句</title>
+      <link>http://siuoly.github.io/posts/%E8%AB%96%E6%96%87%E7%BF%BB%E8%AD%AF%E6%96%B9%E6%B3%95-%E4%BD%BF%E7%94%A8word%E8%99%95%E7%90%86%E6%96%B7%E5%8F%A5/</link>
+      <pubDate>Mon, 18 Apr 2022 02:29:36 +0800</pubDate>
+      
+      <guid>http://siuoly.github.io/posts/%E8%AB%96%E6%96%87%E7%BF%BB%E8%AD%AF%E6%96%B9%E6%B3%95-%E4%BD%BF%E7%94%A8word%E8%99%95%E7%90%86%E6%96%B7%E5%8F%A5/</guid>
+      <description>論文翻譯-使用word段句-中英文對照 前後比較圖
+描述現有翻譯問題
+在PDF格式下，翻譯PDF複製的文件會有斷句不完整的問題
+使用word開啟論文PDF檔案可以解決此段距問題。
+使用web 瀏覽模式，斷句自動處理，現在複製段落也有正確的斷句了
+用Html格式儲存文件，開啟Html網頁檔案，使用google翻譯能夠正常的翻譯整份文件。
+但我的閱讀習慣是中文接續英文段落，因此換一個方法。
+手動，刪除圖片,公式，避免影響翻譯後排版，複製文字到文件檔上，命名paper.txt
+使用python 腳本逐行翻譯
+# trans.py from sys import argv from googletrans import Translator t = Translator() def translate(text):  return t.translate( text, dest=&amp;#34;zh-TW&amp;#34; ).text readfile = &amp;#34;./paper.txt&amp;#34; writefile = &amp;#34;./translated.txt&amp;#34; with open( readfile, &amp;#39;r&amp;#39;) as f:  lines = f.readlines() import time newfile = open( writefile , &amp;#39;w&amp;#39;) for line in lines:  if line.strip() == &amp;#39;&amp;#39;:  newfile.write(&amp;#39;\n&amp;#39;)  continue  time.</description>
+    </item>
+    
     <item>
       <title>Test_article</title>
       <link>http://siuoly.github.io/posts/test_article/</link>
@@ -33,7 +51,8 @@ How to make local function? &amp;#34; file: function.vimfunction s:LocalFunction
       <pubDate>Thu, 24 Mar 2022 17:05:40 +0800</pubDate>
       
       <guid>http://siuoly.github.io/posts/erann/</guid>
-      <description>https://paperswithcode.com/sota/audio-classification-on-esc-50 [TOC]
+      <description>$$ x = 123 + 345 $$
+https://paperswithcode.com/sota/audio-classification-on-esc-50 [TOC]
 Paper Do  Propose convolutional neural network frameworks improving the inference speed of CNN-based systems. Investigate the impact of (1)data augmentation techniques ,and (2) transfer learning.  Audio pattern recognition (APR )  Environmental sound classification(環境聲音分類) Sound event detection(聲音事件檢測) Audio tagging(音頻標記) Smart room monitoring(智能房間監控) Video content highlight generation(視頻內容突出顯示生成) Musical genre classification(音樂類型分類) Speech emotion classification(語音情感分類) Classify respiratory diseases(分類呼吸系統疾病)  Related work Traditional Methods Traditional APR systems are classical generative or discriminative models, e.</description>
     </item>
     
